@@ -1,0 +1,26 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(244, 186, 186) 0%,
+    rgb(194, 157, 231) 90%
+  );
+}
+
+.container {
+  font-family: "Unica One", cursive;
+  color: #fffeec;
+}
+
+.container a {
+  text-decoration: none;
+  color: #fffeec;
+}
+
+.container a:hover {
+  color: #972ea9;
+}
+
+.nav {
+  font-weight: 600;
+  font-size: 17px;
+}
