@@ -1,8 +1,8 @@
 body {
-  background: radial-gradient(
-    circle at 10% 20%,
-    rgb(244, 186, 186) 0%,
-    rgb(194, 157, 231) 90%
+  background: linear-gradient(
+    88.8deg,
+    rgb(239, 171, 245) 13.4%,
+    rgb(196, 181, 249) 76.3%
   );
 }
 
@@ -23,4 +23,21 @@ body {
 .nav {
   font-weight: 600;
   font-size: 17px;
+  margin-top: 18px;
+  margin-right: -35px;
+}
+
+.about-me-intro {
+  margin: 60px 5px 40px;
+  padding: 40px;
+  width: 500px;
+  line-height: 1.8;
+}
+h1 {
+  font-family: "Silkscreen", cursive;
+  padding: 30px 0;
+}
+
+.about-me-intro a {
+  font-size: 28px;
 }
