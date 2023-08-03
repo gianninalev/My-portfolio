@@ -1,8 +1,10 @@
 body {
   background: linear-gradient(
-    88.8deg,
-    rgb(239, 171, 245) 13.4%,
-    rgb(196, 181, 249) 76.3%
+    to right,
+    #f78ca0 0%,
+    #f9748f 19%,
+    #fd868c 60%,
+    #fe9a8b 100%
   );
 }
 
@@ -32,41 +34,45 @@ body {
 .name {
   font-family: "Silkscreen", cursive;
   padding: 25px 0;
-  font-size: 48px;
+  font-size: 55px;
   text-shadow: 1.5px 1.5px 2px #000000;
 }
 
-.about-me-intro {
-  display: block;
+.intro {
   text-align: center;
   padding: 50px;
   margin: 80px 10px 0 10px;
 }
-.about-me-intro a {
-  font-size: 25px;
-  color: #fffeec;
-  text-decoration: none;
+
+.about-me {
+  text-align: left;
+  max-width: 700px;
+  margin: 60px 25px;
+}
+.about-me-title {
+  font-size: 40px;
+  font-family: "Silkscreen", cursive;
 }
 
-.about-me-intro a:hover {
-  color: #972ea9;
-  font-size: 32px;
+.about-me-text {
+  font-size: 20px;
 }
 
-p {
-  line-height: 1.8;
-  font-size: 18px;
+#my-avatar-1 {
+  width: 400px;
+  margin-top: 60px;
+  padding-top: 70px;
 }
 
-img {
-  width: 315px;
-  margin-left: 50px;
-  margin-top: 30px;
-  transition: all 250ms ease-in-out;
-  border-radius: 100px;
+.my-work-container {
+  display: block;
+  text-align: center;
+  padding: 50px;
 }
 
-img:hover {
-  filter: contrast(90%);
-  transform: scale(1.3);
+.my-work-title {
+  font-size: 40px;
+  font-family: "Silkscreen", cursive;
+  text-align: left;
+  margin-top: 60px;
 }
