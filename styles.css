@@ -1,10 +1,8 @@
 body {
-  background: linear-gradient(
-    to right,
-    #f78ca0 0%,
-    #f9748f 19%,
-    #fd868c 60%,
-    #fe9a8b 100%
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(244, 186, 186) 0%,
+    rgb(194, 157, 231) 90%
   );
 }
 
@@ -34,24 +32,21 @@ body {
 .name {
   font-family: "Silkscreen", cursive;
   padding: 25px 0;
-  font-size: 55px;
+  font-size: 65px;
+  text-align: center;
   text-shadow: 1.5px 1.5px 2px #000000;
 }
 
-.intro {
+.intro-container {
   text-align: center;
-  padding: 50px;
-  margin: 80px 10px 0 10px;
+  margin-top: 80px;
+  padding: 80px;
 }
 
 .about-me {
   text-align: left;
-  max-width: 700px;
-  margin: 60px 25px;
-}
-.about-me-title {
-  font-size: 40px;
-  font-family: "Silkscreen", cursive;
+  max-width: 600px;
+  margin: 20px 20px;
 }
 
 .about-me-text {
@@ -59,20 +54,86 @@ body {
 }
 
 #my-avatar-1 {
-  width: 400px;
-  margin-top: 60px;
-  padding-top: 70px;
+  width: 500px;
+  margin-top: 40px;
+  padding-top: 30px;
 }
 
 .my-work-container {
   display: block;
   text-align: center;
-  padding: 50px;
+  padding: 0 20px;
+  margin: 20px 20px;
 }
 
-.my-work-title {
-  font-size: 40px;
+h1 {
+  font-size: 45px;
   font-family: "Silkscreen", cursive;
   text-align: left;
   margin-top: 60px;
+}
+
+.image-project-overview {
+  max-width: 500px;
+}
+
+.project-title {
+  font-size: 30px;
+}
+
+.project-description {
+  font-size: 18px;
+}
+
+.view-project-button {
+  border: none;
+  border-radius: 5px;
+  padding: 6px 10px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(248, 219, 219) 0%,
+    rgb(229, 248, 250) 90%
+  );
+  opacity: 0.75;
+  font-size: 15px;
+}
+
+.view-project-button:hover {
+  background: white;
+  opacity: 0.5;
+}
+
+.view-project-button a {
+  text-decoration: none;
+  color: #972ea9;
+}
+
+#footer {
+  font-size: 15px;
+  padding-top: 18px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #972ea9;
+  font-weight: bold;
+}
+
+#footer a:hover {
+  color: lightgoldenrodyellow;
+}
+
+.contact-me {
+  text-align: center;
+  margin: 20px;
+}
+
+.contact-me p {
+  font-size: 32px;
+}
+
+.contact-me a {
+  text-decoration: none;
+  color: #972ea9;
+  margin: 8px;
 }
