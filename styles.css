@@ -1,9 +1,10 @@
 body {
   background: radial-gradient(
-    circle at 10% 20%,
+    circle at 100%,
     rgb(244, 186, 186) 0%,
     rgb(194, 157, 231) 90%
   );
+  background-position: center;
 }
 
 .container {
@@ -40,17 +41,19 @@ body {
 .intro-container {
   text-align: center;
   margin-top: 80px;
-  padding: 80px;
+  padding: 70px 0;
 }
 
 .about-me {
   text-align: left;
   max-width: 600px;
-  margin: 20px 20px;
+
+  margin: 20px 20px 30px;
 }
 
 .about-me-text {
   font-size: 20px;
+  margin-top: 20px;
 }
 
 #my-avatar-1 {
@@ -64,6 +67,10 @@ body {
   text-align: center;
   padding: 0 20px;
   margin: 20px 20px;
+}
+
+#container-projects-overview {
+  margin-top: 40px;
 }
 
 h1 {
@@ -110,7 +117,7 @@ h1 {
 
 #footer {
   font-size: 15px;
-  padding-top: 18px;
+  padding-top: 50px;
 }
 
 #footer a {
@@ -125,11 +132,13 @@ h1 {
 
 .contact-me {
   text-align: center;
-  margin: 20px;
+  padding: 0 20px;
+  margin: 20px 20px;
 }
 
 .contact-me p {
   font-size: 32px;
+  margin-top: 30px;
 }
 
 .contact-me a {
